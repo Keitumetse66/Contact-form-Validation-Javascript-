@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: rgb(204, 199, 199);
+    --green: #030;
+    --blue: #00aafd;
+}
+
+body {
+    background-color: var(--gray);
+
+}
+
+.submit {
+    color: var(--white);
+    background-color: var(--black);
+    margin: 10px 10px;
+    width: 4em;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#username, #email, #message, #subject {
+    margin: 10px 10px;
+    width: 30%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: var(--green);
+    margin: 10px 10px;
+    text-align: left;
+    font-family: monospace;
+
+}
+
+.h3 {
+    width: 35px;
+    height: 75px;
+    background-color: var(--blue);
+    font-family: monospace;
+    
+}
